@@ -1,0 +1,270 @@
+﻿  body {
+            font-family: Arial, sans-serif;
+            background-color:#F0F0F0;
+            margin: 0;
+            padding: 10px;
+        }
+        
+.form-container {
+            background: #fff;
+            padding: 10px;
+            border-radius: 2px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width:100%;
+            font-size:13px;
+            font-weight: bold;
+        }
+
+        .padding-form{
+               padding-bottom:180px;
+        }
+
+        .form-group {
+             margin-bottom: 5px; 
+        }
+       
+        .input-form {
+            width: 90%;
+            font-size:15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;}
+
+        .table-container {
+    margin: 20px;
+    overflow-x: auto; 
+}
+
+.clock{
+            background-color:#E7473C;
+            border-radius:50px 50px;
+            border:outset;
+            border-color:white;
+            max-width:40%;
+            height:60px;
+            text-align:center;
+            margin:0 auto;
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+            color: white; 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+.gridview {
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 2px;
+    margin-right: 0px;
+    width:100%;
+}
+
+.gridview th, .gridview td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.gridview th {
+    background-color:#1d3575;
+    color: white;
+    border-bottom: 3px solid #ddd;
+}
+
+.gridview img {
+    border-radius: 50%; 
+    width: 100px; 
+    height: 100px; 
+}
+
+
+.font-total{
+    font-weight:bold;
+}
+
+ .auto-style1 {
+            padding:0;
+            background-color:#E7473C;
+            display: flex; 
+            justify-content: center;
+        }
+        .auto-style2 {
+            height: 163px;
+            background-color:#5D7B9D;
+        }
+        .auto-style3 {}
+        .auto-style4 {
+            width: 233px;
+        }
+        .align-item {
+            width: 459px;
+            text-align:center;
+        }
+
+        .resize-image {
+    max-width: 170px; 
+    max-height: 120px; 
+    width: auto; 
+    height: auto; 
+    border-radius:50%;
+}
+
+        .modalBackground {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.search-form {
+    position: relative;
+    background-color:#FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    top: 0;
+    justify-content: center; 
+    padding: 20px; 
+    margin: 0 auto;
+    max-height:100%;
+}
+
+
+.search-form h3 {
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 15px; 
+}
+
+
+.search-form label {
+    display: block; 
+    margin-bottom: 5px; 
+    color: #555; 
+}
+
+
+.search-form input[type="text"] {
+    width: 80%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+}
+
+
+.search-form .lbl-message {
+    display: block; 
+    margin-top: 10px; 
+    text-align: center; 
+    color: #d9534f; 
+}
+
+.main-div{
+    padding-top: 20px; 
+    width: 100%;       
+    height: 150%;      
+    background-color: white; 
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 999;
+}
+
+.confirmation-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000; 
+    width: 300px;
+    text-align: center;
+}
+
+.delete-button{
+    background-color: #E7473C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;  
+    font-weight:bold;
+}
+
+.delete-button:hover{
+    background-color: #fa4b3e;
+}
+
+  .button-style{
+            text-align: right;
+        }
+        .button-style input[type="submit"],
+        .button-style a {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-left: 10px;  
+           font-weight:bold;
+
+
+
+
+        }
+        .button-style input[type="submit"] {
+            background-color: #E7473C;
+            color: #fff;
+        }
+
+        .button-style a {
+            background-color: #ccc;
+            color: #333;
+            text-decoration: none;
+        }
+        .button-style input[type="submit"]{
+              background-color:#1d3575;
+        }
+        .button-style input[type="submit"]:hover {
+            background-color: #29499e;
+        }
+
+
+         .password-modal {
+               display: block;
+               position: fixed;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+               background-color: white;
+               padding: 20px;
+               border: 1px solid #ccc;
+               box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+               z-index: 1000;
+           }
+
+           .password-input {
+               margin-bottom: 10px;
+               font-size:17px;
+               max-width:50%;
+           }
+
+.generate-button {
+    background-color: #E7473C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+}
